@@ -3,7 +3,7 @@ Follow Grounded-Segment-Anything github
 https://github.com/IDEA-Research/Grounded-Segment-Anything
 
 Just add grounded_sam_demo_get_coordination.py in Grounded-Segment-Anything-main file
-I cannot upload my full code because of some personal probelm.
+I cannot upload my full code because of my personal probelm.
 
 After that, enter below command in your kernel
 
@@ -20,4 +20,14 @@ python grounded_sam_demo_get_coordination.py \
   --device "cuda"
   
   
-Then you can get json file
+Then you can get json file like this:
+
+        json_data.append({
+            'value': value,
+            'label': name,
+            'logit': float(logit),
+            'box': box.numpy().tolist(),
+            'mask' : mask.cpu().numpy().tolist(),
+            'mask_coor': coor,
+            'color' : color
+        })

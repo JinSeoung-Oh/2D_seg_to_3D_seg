@@ -3,7 +3,7 @@ Follow Grounded-Segment-Anything github
 https://github.com/IDEA-Research/Grounded-Segment-Anything
 
 Just add grounded_sam_demo_get_coordination.py in Grounded-Segment-Anything-main file
-I cannot upload my full code because of my personal probelm.
+I cannot upload my full code because of my personal problem.
 
 After that, enter below command in your kernel
 
